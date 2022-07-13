@@ -29,6 +29,7 @@ with open('addr_dim.json','w', encoding='utf-8') as outfile:
 print('json file is ready')
 
 #write data to json file  ---> Incremental Data
+# rows 11 to 20, and two columns
 #Day2 - load first 10 records
 import json
 data2 = data1.loc[11:20,['HOUSE_NUM','DMA_NM']]
